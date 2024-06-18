@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55190f66-dff2-4282-a4f9-07eb46e8c99c" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/lesson1/hw1.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="55190f66-dff2-4282-a4f9-07eb46e8c99c" name="Changes" comment="First Task">
+      <change beforePath="$PROJECT_DIR$/lesson1/hw1.1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/hw1.1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718722890074</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First Task">
+      <option name="closed" value="true" />
+      <created>1718727379345</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718727379345</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,6 +83,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="First Task" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Task" />
   </component>
 </project>
