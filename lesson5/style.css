@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-left: 250px;
+    margin-top: 3vh;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: none;
+    gap: 40vh;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: white;
+}
+
+section{
+    background-image: url(fog-mountain-sunset.png);
+    height: 90vh;
+    background-size: cover;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Orbitron", sans-serif;
+
+}
+
+.p1{
+    margin-top: 25vh;
+}
+
+h1{
+    font-size: 120px;
+    letter-spacing: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul{
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: none;
+    gap: 9vh;
+    list-style: none;
+}
+
+header nav ul a:hover{
+    color: aquamarine;
+    transition: 1s;
+}
+
+a{
+    font-size: 2vh;
+    text-decoration: none;
+    color: rgb(214, 213, 212);
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+button{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-style: none;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}

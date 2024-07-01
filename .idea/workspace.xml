@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55190f66-dff2-4282-a4f9-07eb46e8c99c" name="Changes" comment="hw 2.2 2.3">
-      <change afterPath="$PROJECT_DIR$/lesson4/hw4.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/hw4.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson5/fog-mountain-sunset.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson5/hw5.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson5/hw5.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson5/hw5.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson5/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +47,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Влад Бган\IdeaProjects\may-2024-HTML\lesson5" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -117,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719511109425</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="hw 2.2 2.3">
+      <option name="closed" value="true" />
+      <created>1719706629124</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719706629125</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
