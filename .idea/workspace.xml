@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55190f66-dff2-4282-a4f9-07eb46e8c99c" name="Changes" comment="hw 2.2 2.3">
-      <change afterPath="$PROJECT_DIR$/lesson5/fog-mountain-sunset.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/hw5.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/hw5.2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/hw5.3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/style.css" afterDir="false" />
+    <list default="true" id="55190f66-dff2-4282-a4f9-07eb46e8c99c" name="Changes" comment="hw">
+      <change afterPath="$PROJECT_DIR$/lesson6/hw6.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/hw6.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/hw6.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/hw6.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/hw7.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/hw8.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9/hw9.1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719706629125</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="hw">
+      <option name="closed" value="true" />
+      <created>1719866715526</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719866715526</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +164,7 @@
     <MESSAGE value="all 3 task's" />
     <MESSAGE value="hw 2.1" />
     <MESSAGE value="hw 2.2 2.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw 2.2 2.3" />
+    <MESSAGE value="hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw" />
   </component>
 </project>
