@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .upper{
+            width: 400px;
+            height: 600px;
+            border-style: solid;
+            border-radius: 2px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .lower{
+            width: 400px;
+            height: 50px;
+            border-style: solid;
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        a{
+            text-decoration: none;
+        }
+        img{
+            width: 70%;
+            height: 20%;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="upper">
+    <img src="https://assets.stickpng.com/images/5a4e432a2da5ad73df7efe7a.png" alt="Instagram">
+    <input style="width: 70%; height: 40px;" type="text" id="log" placeholder="Номер телефону, ім'я користувача або email">
+    <input style="width: 70%; height: 40px;" type="text" id="pas" placeholder="Пароль">
+    <button style="width: 70%; height: 40px; background-color: lightblue; border-radius: 50px; border-style: none;">Увійти</button>
+    <p style="color: gray;">АБО</p>
+    <div style="display: flex; align-items: center; gap: 20px; flex-direction: column;">
+        <div>
+            <img style="width: 20px; height: 20px;"
+                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/600px-Facebook_logo_%28square%29.png"
+                 alt="facebook  ">
+            <a href="#">Увійти через Facebook</a><br>
+        </div>
+        <a href="#">Забули пароль?</a>
+    </div>
+</div>
+<div class="lower">
+    <p>Не маєте облікового запису? <a href="#">Зареєструйтеся</a></p>
+</div>
+</body>
+
+</html>
