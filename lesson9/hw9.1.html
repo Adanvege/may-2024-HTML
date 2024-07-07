@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html, body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+        .inbox{
+            height: 400px;
+            width: 600px;
+            border-radius: 20px;
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+        }
+        .box{
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            height: 100px;
+            width: 600px;
+            display: flex;
+            background-color: rgb(117, 188, 255);
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+        }
+        input{
+            margin-top: 20px;
+            height: 50px;
+            width: 400px;
+        }
+        .check{
+            margin: 0;
+            width: 20px;
+            margin-right: 180px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="inbox">
+    <div class="box">
+        <p>Вхід в особистий кабінет</p>
+    </div>
+    <input type="text" name="log" id="login" placeholder="Логін або email">
+    <input style="margin-top: 30px;" type="text" name="pas" id="password" placeholder="Пароль">
+    <div style="display: flex; align-items: center; justify-content: center; margin-top: 20px;">
+        <label for="rem">Запам'ятати мене</label>
+        <input class="check" type="checkbox" name="remember" id="rem">
+        <button style="border-radius: 50px; width: 100px; height: 40px; background-color: azure;">Вхід</button>
+    </div>
+</div>
+</body>
+
+</html>
