@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: #4a2345;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            gap: 50px;
+        }
+        @keyframes text{
+            0%{
+                color: #ffffb6;
+            }
+            50%{
+                color: #fec38a;
+            }
+            100%{
+                color: #ff7c67;
+            }
+        }
+        @keyframes daybreak{
+            0%{
+                transform: rotate(0deg);
+            }
+            50%{
+                transform: rotate(180deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes dot1{
+            from{
+                opacity: 100%;
+            }
+            to{
+                opacity: 0%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<img src="cropped_image.png" alt="" style="animation: daybreak 2s linear infinite; height: 200px;width: 200px;">
+<div style="display: flex;">
+    <p
+            style="animation:text 2s linear alternate infinite ; font-size: 50px; font-style: italic;font-weight: bolder; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #ffff6c;">
+        Day breaking in progress</p>
+    <p style="animation:dot1 700ms infinite; font-size: 50px; font-style: italic;font-weight: bolder; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #ffff6c;">.</p>
+    <p style="animation:dot1 720ms infinite; font-size: 50px; font-style: italic;font-weight: bolder; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #ffff6c;">.</p>
+    <p style="animation:dot1 740ms infinite; font-size: 50px; font-style: italic;font-weight: bolder; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #ffff6c;">.</p>
+</div>
+</body>
+
+</html>

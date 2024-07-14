@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55190f66-dff2-4282-a4f9-07eb46e8c99c" name="Changes" comment="hw">
-      <change afterPath="$PROJECT_DIR$/lesson9/hw9.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Rectangle 16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Rectangle 17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/Rectangle 21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/hw10.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/hw10.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/image 8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/cropped_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/hw11.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/hw11.2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +51,16 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Влад Бган/IdeaProjects/may-2024-HTML/lesson10&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Влад Бган\IdeaProjects\may-2024-HTML\lesson10" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Влад Бган\IdeaProjects\may-2024-HTML\lesson11" />
       <recent name="C:\Users\Влад Бган\IdeaProjects\may-2024-HTML\lesson5" />
     </key>
   </component>
@@ -156,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720390715213</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="hw">
+      <option name="closed" value="true" />
+      <created>1720396187316</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720396187316</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

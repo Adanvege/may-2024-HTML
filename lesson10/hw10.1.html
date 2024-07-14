@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .block1
+        {
+            width: 40vh;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(57, 156, 140);
+        }
+        .block1>ul>li:nth-child(even){
+            color: pink;
+        }
+        .block2
+        {
+            width: 40vh;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(72, 57, 156);
+        }
+        .block2>ul>li:nth-child(odd)
+        {
+            font-size: 22px;
+        }
+        .block3
+        {
+            width: 40vh;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(130, 156, 57);
+        }
+        .block3>ul>li:nth-child(2n+4)::after
+        {
+            content: "!";
+            color: red;
+        }
+        .block4
+        {
+            width: 40vh;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(156, 113, 57);
+        }
+        .block4>ul>li:last-child{
+            color: purple;
+        }
+        .block5
+        {
+            width: 40vh;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(156, 57, 95);
+        }
+        .block5>ul>li::first-letter{
+            color: red;
+            font-size: 30px;
+        }
+        .block6
+        {
+            width: 40vh;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(19, 21, 153);
+        }
+        .block6>ul>li::before{
+            content: " ";
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-image: url(https://static.wikia.nocookie.net/library-of-ruina/images/b/b2/LiuAssociationIcon.png/revision/latest/thumbnail/width/360/height/360?cb=20240606010353);
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+<div class="block1">
+    <ul>
+        <li>List of 18th-century British children's literature titles</li>
+        <li>List of 19th-century British children's literature titles</li>
+        <li>List of American children's books</li>
+        <li>List of Australian crime-related books and media</li>
+        <li>List of anonymously published works</li>
+        <li>List of autobiographies</li>
+        <li>Lists of banned books</li>
+        <li>List of books written by children or teenagers</li>
+        <li>List of book titles taken from literature</li>
+        <li>List of books by year of publication</li>
+        <li>List of children's books made into feature films</li>
+        <li>List of Christian novels</li>
+    </ul>
+</div>
+<div class="block2">
+    <ul>
+        <li>List of 18th-century British children's literature titles</li>
+        <li>List of 19th-century British children's literature titles</li>
+        <li>List of American children's books</li>
+        <li>List of Australian crime-related books and media</li>
+        <li>List of anonymously published works</li>
+        <li>List of autobiographies</li>
+        <li>Lists of banned books</li>
+        <li>List of books written by children or teenagers</li>
+        <li>List of book titles taken from literature</li>
+        <li>List of books by year of publication</li>
+        <li>List of children's books made into feature films</li>
+        <li>List of Christian novels</li>
+    </ul>
+</div>
+<div class="block3">
+    <ul>
+        <li>List of 18th-century British children's literature titles</li>
+        <li>List of 19th-century British children's literature titles</li>
+        <li>List of American children's books</li>
+        <li>List of Australian crime-related books and media</li>
+        <li>List of anonymously published works</li>
+        <li>List of autobiographies</li>
+        <li>Lists of banned books</li>
+        <li>List of books written by children or teenagers</li>
+        <li>List of book titles taken from literature</li>
+        <li>List of books by year of publication</li>
+        <li>List of children's books made into feature films</li>
+        <li>List of Christian novels</li>
+    </ul>
+</div>
+<div class="block4">
+    <ul>
+        <li>List of 18th-century British children's literature titles</li>
+        <li>List of 19th-century British children's literature titles</li>
+        <li>List of American children's books</li>
+        <li>List of Australian crime-related books and media</li>
+        <li>List of anonymously published works</li>
+        <li>List of autobiographies</li>
+        <li>Lists of banned books</li>
+        <li>List of books written by children or teenagers</li>
+        <li>List of book titles taken from literature</li>
+        <li>List of books by year of publication</li>
+        <li>List of children's books made into feature films</li>
+        <li>List of Christian novels</li>
+    </ul>
+</div>
+<div class="block5">
+    <ul>
+        <li>List of 18th-century British children's literature titles</li>
+        <li>List of 19th-century British children's literature titles</li>
+        <li>List of American children's books</li>
+        <li>List of Australian crime-related books and media</li>
+        <li>List of anonymously published works</li>
+        <li>List of autobiographies</li>
+        <li>Lists of banned books</li>
+        <li>List of books written by children or teenagers</li>
+        <li>List of book titles taken from literature</li>
+        <li>List of books by year of publication</li>
+        <li>List of children's books made into feature films</li>
+        <li>List of Christian novels</li>
+    </ul>
+</div>
+<div class="block6">
+    <ul>
+        <li>List of 18th-century British children's literature titles</li>
+        <li>List of 19th-century British children's literature titles</li>
+        <li>List of American children's books</li>
+        <li>List of Australian crime-related books and media</li>
+        <li>List of anonymously published works</li>
+        <li>List of autobiographies</li>
+        <li>Lists of banned books</li>
+        <li>List of books written by children or teenagers</li>
+        <li>List of book titles taken from literature</li>
+        <li>List of books by year of publication</li>
+        <li>List of children's books made into feature films</li>
+        <li>List of Christian novels</li>
+    </ul>
+</div>
+</body>
+
+</html>
