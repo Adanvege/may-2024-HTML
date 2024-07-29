@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            display: flex;
+            margin: 42px 0px 0px 402px;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 40px;
+            font-size: 20px;
+            color: #333;
+        }
+        nav>ul>li>ul a{
+            text-decoration: none;
+            color: black;
+            display: block;
+        }
+        nav>ul>li>ul a:hover{
+            background-color: antiquewhite;
+        }
+        .dropdown{
+            display: none;
+        }
+        nav>ul>li:hover .dropdown{
+            display: block;
+            position: fixed;
+        }
+
+    </style>
+</head>
+
+<body style="background-color: #F7F6F4;;">
+<header>
+    <img style="width: 178px; height: 22px; " src="https://s3-alpha-sig.figma.com/img/b9d3/0911/923d23ccee9da5bc510b8d159f185505?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cLU4pWXN~inju9zbacuZDvkTxQCSb7GnfqXcRsUe057dQIBvQxmMY292U3wzYq065w8ONVzqJJR1MMpWt9PvkQOcSwLCjTBQ0L~zB~nK9Qy-T63Zte9wQE-V~i6n0j1qLr-OAt8ADB8fGQVDczVmneMDNDSwCgzUi~AZBYb2FnjN6HWfE224IJ-cGu84ABgVb-rNV-oQeStGGpC2fnIejAtfrVAecHSAXCtFdzaXGrvdWjiSo1Y1PcdVvDmd~97j5ix-6KZT~ZHmz4Qac0ZwJdsAA0dYmecCO9H3S86kUsanFEgreRjQokjjADXQ~4OwqqeqXlxjsCRkDgb~F-nN7Q__" alt="logo">
+    <nav style="margin-left: 186px;">
+        <ul>
+            <li>Watches</li>
+            <li>Eyewear</li>
+            <li><a style="text-decoration: none; color: black;" href="#">Accessories</a>
+                <ul class="dropdown">
+                    <li><a href="#">Fashion</a></li>
+                    <li><a href="#">Electronic</a></li>
+                    <li><a href="#">Home</a></li>
+                </ul>
+            </li>
+            <li>News</li>
+        </ul>
+    </nav>
+</header>
+<section style="display: flex; justify-content: center; margin-top: 90px;">
+    <form style="position: relative; background-color: #F1DDC9; width: 1110px; height: 505px; display: flex; align-items: center;">
+        <img style="position: absolute; left: -105px; top: -70px; bottom: 24px; height: 150%; " src="https://s3-alpha-sig.figma.com/img/1fbf/3595/3b70a23b1f37752b786923fd00e2a9ee?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LjELD-lnlq-DJxNLrrNjtTmY78-evYP5m7NUWlcMcj85hHykXigUteCWNntAFo--4QmaUbqREcaDMhfEvr5~hPjL8L14-rL8GQRO9mlKmTR5b-YrdZSb39JcukBukYFydrHl-L2OE1XB2Dz9Nv1ZFcYK2IZ1-KV9W1ezoNnokbdfzSL~yKNOkehd29VCNf9mdZ5J5RfjQEPkFyqSQ5xBinXAmrBCb9OAyHY1mNY7lOjLh826FSkIhIOyLAKCqWbD9QRwxMRLJ49tdshu4ByvtVi6BNiLxPfguUTJksTp0RD2eFkpMQ~O6IFDyBQIPOpQ3DKuAQVqE3tqjnoKNP-V~A__" alt="clock">
+        <div style="display: flex; flex-direction: column; margin-left: 380px; gap: 32px;">
+            <h1 style="width: 413px; font-size: 60px; color: #333; ">WAY KAMBAS MINI EBONY</h1>
+            <p style="width: 529px; font-size: 16px; color: #333; ">MATOA Way Kambas - This wood is chosen to represent the Sumatran Rhino's skin which is
+                designed with an overlap effect
+                on its strap to represent Rhino's skin.</p>
+            <button style="width: 208px; height: 62px; background-color: #D84727; color: white;font-size: 20px; margin-top: 79px;">Add to cart</button>
+        </div>
+    </form>
+</section>
+<section style="display: flex; flex-direction: column; align-items: center; margin-top: 79px; gap: 89px;">
+    <h2 style="margin-left: -888px; font-size: 36px; color: #333; ">Monthly Deals</h2>
+    <div style="display: flex; gap: 35px;">
+        <div style="position: relative; display: flex; flex-direction: column; width: 255px; height: 278px; background-color: white;"><img style="width: 221px; height: 221px; position: absolute; top: -30px; align-self: center;" src="https://s3-alpha-sig.figma.com/img/e1ec/5c3e/0f32277acab322ddedd5c487c9946bf8?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MHny~gvHDF4~dWJz2s2kDvaAv4e0m9GBTqzG6frO4l6eY-LjJwNTDLTmr7P-C4W7VwR1W0whPvSsRuDjvTGQeelMLkFUfncIpP5fVNqs4uuShbKpIfcnYYQCB5Tjncn7QSFd-tsKYwsYalNovrWabsKOBDV7SSnpU8G3Go7QfDBxL~mbH0UOHS1xjtBCigXamiIGRn38YasBle2BN8XZpkskJHpTthxuUwcBJoZvukNMlJuL20gC6ZnYj3feAEAWaLhVmxiu1QyUwF69VnJVVS0FcfIm9-fVCddw-tjtogAxcUwDnFa9QwrfpXppFR4-zCol-GQOuoixGG-oaMKk3A__" alt="clock1"> <p style="margin-top: 213px; margin-left: 24px; font-size: 24px; ">Singo Maple</p></div>
+        <div style="position: relative; display: flex; flex-direction: column; width: 255px; height: 278px; background-color: white;"><img style="width: 221px; height: 221px; position: absolute; top: -30px; align-self: center;" src="https://s3-alpha-sig.figma.com/img/d51c/575c/1525bbad3f2aa1fa9d5191e3bc1233a4?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MQfcJFDhAPXoae50m0Pn1yXrGUCakM6~Qo3ChmxT~7~3ItXWeMcVRTugc9zLQ1WFlRs1R4OkxB9KdMdgby8l177YgyDT5KFRmonXg3T~~s4S5U4pO8krCHyg5nAhNO06cjSA28eEsFC0EmSqvOX46UkkLVNp1QGDlKTQGUnNQRMAA-FKandIctgd~ki4XAKCXv2~6c~hZdZgHIgSzZbTANHlv3LRnNv1C3Eo8UMWvhgOUI-XXSti5XNROpjwSMw1Oam393CmfUAImmWpMGJjl4Ly0IUWbVKCs54lMNe1tQqcxzbCYzaSGpHB246bJPiuQGdUrdpDA0kPpvXUEF7a-g__" alt="clock2"> <p style="margin-top: 213px; margin-left: 24px; font-size: 24px; ">Singo Ebony</p></div>
+        <div style="position: relative; display: flex; flex-direction: column; width: 255px; height: 278px; background-color: white;"><img style="width: 221px; height: 221px; position: absolute; top: -30px; align-self: center;" src="image.png" alt="clock3"> <p style="margin-top: 213px; margin-left: 24px; font-size: 24px; ">Rakai Ebony</p></div>
+        <div style="position: relative; display: flex; flex-direction: column; width: 255px; height: 278px; background-color: white;"><img style="width: 221px; height: 221px; position: absolute; top: -30px; align-self: center;" src="https://s3-alpha-sig.figma.com/img/9a16/22cd/f214593e9a816549e8de65fd3001a249?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pEGRpokoPhFThY1XCYMDlvdw~deWw96XrmkIJK1KQ9wHYLYexSvugBGuPU5GUnlMyztfOMR7DO~XOYWxWMmb90LbW1Vw9igDf0U7pXR2ZBxa1BhD-WudXsSkSbjp3UvHThcxR0zQpIG4rpxhhBzFgw-Ixbp9pUzPoHa-ZbiwUzDGx8Yu3tOWZ4UhruW0c6ka95mHHa3I2D-4NH70xoWqTPVYnJ2Z-08EJOxSGi4Lf3VeYZnpsB2heGsW04TBgrswZ4WYYoK6YvdBjXdV1t228iL4Vg-77eSj43u~LChD067euK2XlsOPS0dW2UepZQyI4Ey6s8XuSOkutwOo0GUB~A__" alt="clock4"> <p style="margin-top: 213px; margin-left: 24px; font-size: 24px; ">Way Kambas</p></div>
+    </div>
+</section>
+<section style="display: flex; flex-direction: column; align-items: center; margin-top: 79px; gap: 89px; margin-bottom: 60px;">
+    <h2 style="margin-left: -888px; font-size: 36px; color: #333; ">Recent News</h2>
+    <div style="display: flex; align-items: center; margin-left: -100px;">
+        <div>
+            <p style="font-size: 20px; width: 163px; color: #777; ">Where To Travel</p>
+            <p style="width: 350px; font-size: 36px; color: #333; ">Matoa Where To Travel? Yogyakarta</p>
+        </div>
+        <img style="width: 627.536px; height: 626px; " src="https://s3-alpha-sig.figma.com/img/c7d8/894e/ca6b35fa4deef4916903223047be6ccd?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RCM3kIyCiBJudm~CCQcpvJ0v5hdh8cVo9deRgAkhPsf~plrDtt4GNymC4hBGRCJrxS4Q17rhwaCSsB1ZJrqYt69X7XLnT5~26NVjVIb9lCQMClz3b0exOfie-09UB0XCaJsrm-vCfHO3a6t1exV7vbyM9ivor1UJU9C9nm1mN45xoiKnCz4Qs7D-dMLo-jXDyPmsZJFglGz6YH-NOTQaU8z1sQkuwD~ezsZH~tukiujPIWvJcvgp0C39nsI2VH0xNmEumSWle2A8gwInMSEXhI2ey2E7jkCS~-Zup5HOA5dnd6FMDgmPsxWMxEMpGCGUH5iY5ID1ujXAwaEFml78EA__" alt="hand">
+    </div>
+</section>
+</body>
+
+</html>
