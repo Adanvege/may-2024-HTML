@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: grid;
+            height: 100vh;
+            grid-template-rows: 1fr 1fr 0.5fr 0.5fr 1fr 1fr;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-areas:
+                'header header header'
+                's1 s1 a1'
+                's2 s2 a1'
+                's2 s2 a2'
+                's3 s3 a2'
+                'footer footer footer'
+            ;
+        }
+        header{
+            grid-area: header;
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+        }
+        .s1{
+            grid-area: s1;
+            background-color: azure;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+        }
+        .s2{
+            grid-area: s2;
+            background-color: beige;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+        }
+        .s3{
+            grid-area: s3;
+            background-color: bisque;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+        }
+        .a1{
+            grid-area: a1;
+            background-color: saddlebrown;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+        }
+        .a2{
+            grid-area: a2;
+            background-color: sandybrown;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+        }
+        footer{
+            grid-area: footer;
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>Header</header>
+    <section class="s1">Content-1</section>
+    <section class="s2">Content-2</section>
+    <section class="s3">Content-3</section>
+    <aside class="a1">Spam-1</aside>
+    <aside class="a2">Spam-2</aside>
+    <footer>Footer</footer>
+</body>
+
+</html>

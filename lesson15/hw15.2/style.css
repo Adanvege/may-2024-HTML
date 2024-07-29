@@ -1,0 +1,42 @@
+@media screen and (min-width:481px) {
+    * {
+            margin: 0;
+            padding: 0;
+        }
+    
+        .blob {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        .miniblob {
+            display: flex;
+            gap: 192px;
+        }
+    
+        header {
+            width: 100%;
+            height: 20vh;
+            background-color: aqua;
+        }
+    
+        .mainsect {
+            width: 80vw;
+            height: 40vh;
+            background-color: aliceblue;
+        }
+    
+        .littlesect {
+            width: 20vw;
+            height: 40vh;
+            background-color: beige;
+        }
+    
+        aside {
+            margin-top: -40vh;
+            height: 80vh;
+            width: 20vw;
+            background-color: blanchedalmond;
+        }
+    
+}

@@ -1,0 +1,87 @@
+@media screen and (min-width:481px) and (max-width:900px) {
+    * {
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-family: Inter;
+        }
+    
+        body {
+            height: 100vh;
+            justify-content: center;
+            background-color: black;
+            display: flex;
+            align-items: center;
+        }
+    
+        .pcircle1 {
+            background-color: black;
+            border: 40px solid rgb(210, 39, 48);
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            top: -80px;
+            left: -50px;
+        }
+    
+        .pcircle2 {
+            background-color: black;
+            border: 40px solid rgb(210, 39, 48);
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            top: -25px;
+            right: -90px;
+        }
+    
+        .but1 {
+            background-color: blueviolet;
+            width: 200px;
+            height: 70px;
+            font-size: 20px;
+            border: none;
+            border-radius: 30px;
+        }
+    
+        .but2 {
+            background-color: white;
+            color: black;
+            width: 150px;
+            height: 70px;
+            font-size: 20px;
+            border: none;
+            border-radius: 30px;
+        }
+    
+        .cont {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+        }
+    
+        .bcont {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+        }
+    
+        p {
+            text-align: center;
+            font-size: 20px;
+        }
+    
+        h1 {
+            font-size: 180px;
+            text-align: center;
+            width: 367px;
+            height: 180px;
+        }
+    
+        h2 {
+            font-size: 48px;
+            text-align: center;
+        }
+}

@@ -1,0 +1,29 @@
+@media screen and (min-width:481px) {
+    * {
+            margin: 0;
+            padding: 0;
+        }
+    
+        div {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        header {
+            width: 100%;
+            height: 20vh;
+            background-color: darkkhaki;
+        }
+    
+        section {
+            height: 80vh;
+            width: 70vw;
+            background-color: wheat;
+        }
+    
+        aside {
+            height: 80vh;
+            width: 30vw;
+            background-color: thistle;
+        }
+}

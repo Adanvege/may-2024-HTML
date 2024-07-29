@@ -1,0 +1,33 @@
+@media screen and (min-width:0px) and (max-width:480px) {
+    * {
+            margin: 0;
+            padding: 0;
+        }
+    
+        body {
+            display: grid;
+            height: 100vh;
+            grid-template-rows: 1fr 3fr 1fr;
+            grid-template-columns: 100%;
+            grid-template-areas:
+                'header header header'
+                'sect sect sect'
+                'aside aside aside'
+            ;
+        }
+    
+        header {
+            grid-area: header;
+            background-color: antiquewhite;
+        }
+    
+        section {
+            grid-area: sect;
+            background-color: mediumspringgreen;
+        }
+    
+        aside {
+            grid-area: aside;
+            background-color: teal;
+        }
+}
