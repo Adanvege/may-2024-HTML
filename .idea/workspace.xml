@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55190f66-dff2-4282-a4f9-07eb46e8c99c" name="Changes" comment="hw">
-      <change afterPath="$PROJECT_DIR$/lesson13/12315337-uhd_3840_2160_30fps.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/hw13.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/hw13.2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/hw13.3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson14/hw14.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson14/hw14.2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson14/image.png" afterDir="false" />
+    <list default="true" id="55190f66-dff2-4282-a4f9-07eb46e8c99c" name="Changes" comment="hw_s">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson13/hw13.1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson13/hw13.1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson15/hw15.1/hw15.1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson15/hw15.1/hw15.1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson15/hw15.1/style-mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson15/hw15.1/style-mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson15/hw15.1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson15/hw15.1/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +191,31 @@
       <option name="project" value="LOCAL" />
       <updated>1721258837442</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="hw">
+      <option name="closed" value="true" />
+      <created>1722296580689</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722296580689</updated>
+    </task>
+    <task id="LOCAL-00017" summary="hw_s">
+      <option name="closed" value="true" />
+      <created>1722296688502</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1722296688502</updated>
+    </task>
+    <task id="LOCAL-00018" summary="hw_s">
+      <option name="closed" value="true" />
+      <created>1722380354628</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1722380354628</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +236,7 @@
     <MESSAGE value="hw 2.1" />
     <MESSAGE value="hw 2.2 2.3" />
     <MESSAGE value="hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw" />
+    <MESSAGE value="hw_s" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw_s" />
   </component>
 </project>
