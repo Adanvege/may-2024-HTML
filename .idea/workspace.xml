@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55190f66-dff2-4282-a4f9-07eb46e8c99c" name="Changes" comment="hw_s">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson13/hw13.1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson13/hw13.1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson15/hw15.1/hw15.1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson15/hw15.1/hw15.1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson15/hw15.1/style-mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson15/hw15.1/style-mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson15/hw15.1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson15/hw15.1/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="55190f66-dff2-4282-a4f9-07eb46e8c99c" name="Changes" comment="hw_s" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -215,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722380354628</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="hw_s">
+      <option name="closed" value="true" />
+      <created>1722382015005</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1722382015005</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
